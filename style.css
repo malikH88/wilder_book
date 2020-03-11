@@ -1,0 +1,223 @@
+/*--------------------------TOUTE-LA-PAGE--------------------------*/
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+/*--------------------------NAVIGATION-BAR--------------------------*/
+
+.navigation-bar {
+    width: 100%;
+    height: 60px;
+    background-color: #f99797;    
+}
+
+.navigation-bar-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-logo-wild {
+    height: 60px;
+}
+
+/*--------------------------HEADER--------------------------*/
+
+.header-container {
+    width: 100%;
+    height: 300px;
+    background-color: #ffb5b5;
+    margin-bottom: 20px;
+}
+
+.title-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-sub-title {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+
+.header-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 18px;
+}
+
+/*--------------------------SECTION-WILD-CLASS-------------------------*/
+
+.section-containeur {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.section-content-style {
+    background-color: rgb(204, 128, 141);
+    color: rgb(255, 255, 255);
+    border: solid 1px black;   
+    font-size: 1.5rem;
+}
+
+.classe-photo {
+    width: 100%;
+    height: 100%;
+    border: solid black 1px;
+}
+
+/*--------------------------SECTION-A-PROPOS-------------------------*/
+
+.a_propos-title {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.a_propos-paragraphe {
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: 1.5rem;
+}
+
+/*--------------------------SECTION-VOS-STAGIAIRES-------------------------*/
+
+.section-wilder-title {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.section-wilder-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.section-wilder-card{
+    border: solid 1px black;
+    width: 250px;
+    height: 300px;
+    box-shadow: 3px 3px 5px;
+}
+
+
+.flex-card-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 39px;
+}
+.wilder-card-name {
+    background-color: rgb(180, 180, 180);
+    border-bottom: black 1px solid;
+    font-size: 1.5rem;
+}
+
+
+.wilder-card-photo {
+    width: 100%;
+    height: 179px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.wilder-card-description {
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    border-top: black 1px solid;
+    font-size: 1.5rem;
+
+}
+.flex-card-description {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px;
+}
+
+
+/*--------------------------SECTION-NOS-FORMATEURS-------------------------*/
+
+
+
+/*--------------------------FOOTER-PAGE------------------------*/
+
+.container-footer{
+    background-color: gray;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer-text{
+    color: white;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.logo-wild-footer{ /* taille logo */
+    height: 80px;
+}
+
+.logo-footer-position{ /* position logo */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.adresse-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 1em;
+    
+}
+/* etat des liens */
+a{
+    text-decoration: none;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+a:link, a:visited { 
+    color: blue;
+} 
+
+a:hover{
+    text-decoration: underline;
+}
+
+.button-bar {
+    width: 100%;
+    height: 60px;
+    background-color: crimson;
+    margin-bottom: 20px;
+}
+
+
+
