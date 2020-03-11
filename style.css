@@ -219,5 +219,48 @@ a:hover{
     margin-bottom: 20px;
 }
 
+/* formulaire contact */
 
+form{
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+form div{
+    margin-top: 1em;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea{
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+
+textarea{
+    vertical-align: top;
+    height: 5em;
+}
+
+.button-form{
+    padding-left: 20px;
+}
+
+button{
+    margin-left: 5em;
+}
+
+.title-contact{
+    text-align: center;
+    font-size: 2em;
+}
 
