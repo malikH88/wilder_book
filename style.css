@@ -27,15 +27,15 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 8px;
+    padding: 0.5rem;
 }
 
 .navbar-link{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 23px;
-    width: 600px;
+    margin-top: 1.2rem;
+    width: 30rem;
 }
 
 .navbar-logo-title {
@@ -44,20 +44,20 @@ body {
 }
 
 .navbar-logo-wild {
-    height: 60px;
-    margin-bottom: 10px;
+    height: 4rem;
+    margin-bottom: 1.2rem;
 }
 
 .navbar-title-wild {
     width: 25%;
     height: 25%;
-    margin-top: 50px;
+    margin-top: 4rem;
 }
 /*--------------------------HEADER--------------------------*/
 
 .header-container {
     width: 100%;
-    height: 300px;
+    height: 23rem;
     background-color: #f7b7b7;
     border-bottom: 1px #be8c8c solid;
 }
@@ -88,7 +88,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 800px;
+    width: 50rem;
 
 }
 
@@ -154,7 +154,7 @@ h1 {
     justify-content: space-between;
     margin-bottom: 40px;
     border-radius: 10px;
-    width: 800px;
+    width: 50rem;
 }
 
 .section-wilder-card{
@@ -198,17 +198,18 @@ h1 {
     flex-direction: column;
     justify-content: flex-start;
     margin: 0px;
+    padding: 0px;
 }
 
 .container-stagiaire{
-    width: 500px;
+    width: 200px;
     height: 1660px;
     background-color: rgb(230, 230, 230);
     border-radius: 8px;
 }
 
 .container-Formateur{
-    width: 500px;
+    width: 200px;
     height: 300px;
     background-color: rgb(230, 230, 230);
     border-radius: 8px;
@@ -347,4 +348,14 @@ button{
 .title-contact{
     text-align: center;
     font-size: 2em;
+}
+
+
+@media (max-width: 961px) {
+
+    .header-container{
+        height: 15rem;
+    }
+
+    
 }
