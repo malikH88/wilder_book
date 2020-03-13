@@ -223,6 +223,7 @@ h1 {
     width: 100%;
     height: 60px;
     background-color: rgb(97, 97, 97);
+    color: white;
 }
 
 .Footer-block-bar {
@@ -231,6 +232,7 @@ h1 {
     background-color: rgb(75, 75, 75);
     display: flex;
     flex-direction: row;
+    color: white;
 }
 
 .footer-logo-wild{
@@ -282,12 +284,32 @@ h1 {
     padding-top: 10px;
 }
 
+.lien-reseaux-1{
+    padding-right: 20px;
+}
+
 .lien{
     padding-left: 20px;
 }
 
 a:hover{
     text-decoration: underline;
+}
+
+.lien:link{
+    color: white;
+}
+
+.lien:visited{
+    color: white;
+}
+
+.lien-reseaux{
+    color: white;
+}
+
+.p-reseaux{
+    margin-left: 20px;
 }
 /* formulaire contact */
 
