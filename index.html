@@ -11,37 +11,29 @@
 </head>
     <body>
 
-        <!--NAVIGATION-BAR-->
-        <nav class="navigation-bar">
-            <div class="navigation-bar-flex">
-                <div class="navbar-logo-title">
-                    <img class="navbar-logo-wild" src="https://avatars2.githubusercontent.com/u/8874047?s=280&v=4" alt="">
-                </div>
-                <div class="button-bar">
-                    <div class="navbar-link">
-                        <a href="#À_Propos">À Propos</a>
-                        <a href="#Vos Stagiares">Vos Stagiaires</a>
-                        <a href="#Equipe Pédagogique">Équipe Pédagogique</a>
-                        <a href="#Contactez-Nous">Contactez-Nous</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
         <!--HEADER-->
-        <header>
-            <div class="header-container">
-                <div class="title-header">
-                    <img class="navbar-title-wild" src="https://www.wildcodeschool.com/assets/logo_main-e4f3f744c8e717f1b7df3858dce55a86c63d4766d5d9a7f454250145f097c2fe.png" alt="">
+        <header class="header">
+            <!--NAVIGATION-BAR-->
+            <nav class="navigation-bar">
+                <div class="navbar-logo-title">
+                    <img width="30" class="navbar-logo-wild" src="https://avatars2.githubusercontent.com/u/8874047?s=280&v=4" alt="">
                 </div>
+                <div class="navbar-link">
+                    <a href="#À_Propos">À Propos</a>
+                    <a href="#Vos Stagiares">Vos Stagiaires</a>
+                    <a href="#Equipe Pédagogique">L'équipe</a>
+                    <a href="#Contactez-Nous">Contact</a>
+                </div>
+            </nav>
+
+            <div class="title-header">
+                <img width="200" class="navbar-title-wild" src="https://www.wildcodeschool.com/assets/logo_main-e4f3f744c8e717f1b7df3858dce55a86c63d4766d5d9a7f454250145f097c2fe.png" alt="">
             </div>
         </header>
 
         <!--SECTION-A-PROPOS-->
         <section>
-            <div class="a_propos-title">
-                <h2 id="a_propos">À propos</h2>
-            </div>
+            <h2 class="a_propos-title">À propos</h2>
             <div>
                 <p class="a_propos-paragraphe">La <a href="https://wildcodeschool.fr" target="_blank"> Wild Code School</a> est une école
                     innovante et un réseau européen de campus qui forment aux
@@ -58,39 +50,29 @@
         </section>
 
         <!--SECTION-PHOTO-DE-CLASSE-->
-        <section>
-            <div class="section-containeur">
-                <div>
-                    <img class="classe-photo" src="https://raw.githubusercontent.com/malikH88/wilder_book/style/malik/image/photo.jpg" alt="Profil">
-                </div>
-                <div class="section-content section-content-style">
-                    <h2>Bienvenue sur la page de la promo 2020</h2>
-                    <p>La <a href="https://wildcodeschool.fr" target="_blank"> Wild Code School</a>est une école
-                    innovante et un réseau européen de campus qui forment aux
-                    métiers tech des spécialistes adaptables. C'est une marque de la société 
-                    <a href="https://innoveduc.fr/" target="_blank"> Innov'Educ.</a> 
-                    Après s'être historiquement développée sur le métier de développeur
-                    web (PHP, Javascript,Java/Android), l'école propose aujourd'hui des formations autour de six 
-                    grands domaines: le développement informatique, la data, la cybersécurité, le product management, l'UX/UI
-                    Design et le business développement 2.0. Elle forme essentiellement des adultes en reconversion
-                    professionnelle sur des formats courts de trois à cinq mois. On vous laisse découvrir la promo de
-                    Reims 2020 !!!  .</p>
-                </div>
+        <section class="section-container">
+            <img class="classe-photo" src="https://raw.githubusercontent.com/malikH88/wilder_book/style/malik/image/photo.jpg" alt="Profil">
+            <div class="section-content section-content-style">
+                <h2>Bienvenue sur la page de la promo 2020</h2>
+                <p>La <a href="https://wildcodeschool.fr" target="_blank"> Wild Code School</a>est une école
+                innovante et un réseau européen de campus qui forment aux
+                métiers tech des spécialistes adaptables. C'est une marque de la société 
+                <a href="https://innoveduc.fr/" target="_blank"> Innov'Educ.</a> 
+                Après s'être historiquement développée sur le métier de développeur
+                web (PHP, Javascript,Java/Android), l'école propose aujourd'hui des formations autour de six 
+                grands domaines: le développement informatique, la data, la cybersécurité, le product management, l'UX/UI
+                Design et le business développement 2.0. Elle forme essentiellement des adultes en reconversion
+                professionnelle sur des formats courts de trois à cinq mois. On vous laisse découvrir la promo de
+                Reims 2020 !!!  .</p>
             </div>
         </section>
 
         <!--VOS-STAGIAIRES-->
         <section>
-            <div class="section-wilder-title">
-                <h2 id="Vos Stagiares">Vos Stagiaires</h2>
-            </div>
-            <div class="stagiaire-flex">
-                <!--
-                <div class="container-stagiaire">
-                </div>
-                -->
-                <div class="section-wild-block-photo">        
-                    <div class="section-wilder-content">
+            <h2 class="section-wilder-title">
+                Vos Stagiaires
+            </h2>
+            <div class="section-wild-block-photo">
                         <div class="section-wilder-card">
                             <div class="wilder-card-name flex-card-name">
                                 <p>Alim Samir</p>
@@ -139,9 +121,6 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-            
-                    <div class="section-wilder-content">
                         <div class="section-wilder-card">
                             <div class="wilder-card-name flex-card-name">
                                 <p>Himeur Malik</p>
@@ -190,9 +169,6 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-            
-                    <div class="section-wilder-content">
                         <div class="section-wilder-card">
                             <div class="wilder-card-name flex-card-name">
                                 <p>Lucci Anthony</p>
@@ -241,9 +217,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
             
-                    <div class="section-wilder-content">
                         <div class="section-wilder-card">
                             <div class="wilder-card-name flex-card-name">
                                 <p>Panthiez Stephane</p>
@@ -292,9 +266,6 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-        
-                    <div class="section-wilder-content">
                         <div class="section-wilder-card">
                             <div class="wilder-card-name flex-card-name">
                                 <p>Roger Fabrice</p>
@@ -343,18 +314,15 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                </div>
             </div>
         </section>
 
         <!--NOS-FORMATEURS-->
         <section>
-            <div class="section-wilder-title">
-                <h2 id="Equipe Pédagogique">L'Equipe Pédagogique</h2>
-            </div>
+            <h2 class="section-wilder-title">
+                L'Equipe Pédagogique
+            </h2>
             <div class="flex-formateur">
-                <div class="section-wilder-content">
                     <!--Mutlay-->
                     <div class="section-wilder-card">
 
@@ -413,15 +381,14 @@
                     </div>
                     -->
                 </div>
-            </div>
         </section>
-
-
-        <h2 class="section-wilder-title">Contactez-Nous</h2>
 
 
         <!--FORMULAIRE-->
         <section>
+            <h2 class="section-wilder-title">Contactez-Nous</h2>
+
+
             <form action="formulaire">
                 <div>
                     <label for="name">Nom </label>
@@ -435,9 +402,7 @@
                     <label for="msg">Message</label>
                     <textarea id="msg" name="user_message"></textarea>
                 </div>
-                <div class="button">
-                    <button type="submit">Envoyer le Message</button>
-                </div>
+                <button class="button" type="submit">Envoyer le Message</button>
 
             </form>
         </section>
