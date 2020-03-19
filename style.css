@@ -96,7 +96,7 @@ h1 {
 
 .section-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: baseline;
 }
 
