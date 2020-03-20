@@ -56,13 +56,13 @@ section {
     font-size: 20px;
     flex: 1;
     text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
 }
 
 a:hover {
     opacity: 0.6;
     text-decoration: none;
-    padding: 1rem;
-
 }
 
 .navbar-link > * {
@@ -91,10 +91,14 @@ a:hover {
 
 .title-header {
     text-align: center;
-    padding: 5rem;
-    font-size: 2em;
+    padding: 7rem;
+    font-size: 3em;
     font-weight: bolder;
 
+}
+
+.title-promo {
+    color: rgb(129, 129, 129);
 }
 
 .header-sub-title {
@@ -105,6 +109,9 @@ h1 {
     font-size: 4rem;
     color: rgb(255, 255, 255);
 }
+
+
+
 
 /*--------------------------SECTION-WILD-CLASS-------------------------*/
 
@@ -159,7 +166,7 @@ h1 {
 }
 
 .apropos {
-    width: 50%;
+    
     justify-content: flex-start;
 }
 
