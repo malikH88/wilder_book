@@ -43,24 +43,31 @@ section {
 .navigation-bar { 
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
     padding: 1rem;
     box-shadow: 0px 4px 4px rgb(75, 75, 75);
+=======
+>>>>>>> c8eb0adbdf39ae3f7698877e9fcb24d54e9a6367
 }
 
 .navbar-link{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     font-size: 20px;
     flex: 1;
+<<<<<<< HEAD
     text-decoration: none;
 }
 
 a:hover {
     opacity: 0.6;
     text-decoration: none;
+=======
+    padding: 1rem;
+>>>>>>> c8eb0adbdf39ae3f7698877e9fcb24d54e9a6367
 }
 
 .navbar-link > * {
@@ -71,6 +78,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 1rem;
 }
 
 /*--------------------------HEADER--------------------------*/
@@ -88,7 +96,13 @@ a:hover {
 
 .title-header {
     text-align: center;
+<<<<<<< HEAD
     padding: 5rem;
+=======
+    padding: 2rem;
+    font-size: 2em;
+    font-weight: bolder;
+>>>>>>> c8eb0adbdf39ae3f7698877e9fcb24d54e9a6367
 }
 
 .header-sub-title {
@@ -100,9 +114,12 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> c8eb0adbdf39ae3f7698877e9fcb24d54e9a6367
 /*--------------------------SECTION-WILD-CLASS-------------------------*/
 
 .classe-photo {
@@ -137,9 +154,12 @@ h1 {
     color: rgb(255, 255, 255); 
 }
 
+<<<<<<< HEAD
 .p_classe {
     font-size: 24px;
 }
+=======
+>>>>>>> c8eb0adbdf39ae3f7698877e9fcb24d54e9a6367
 /*--------------------------SECTION-A-PROPOS-------------------------*/
 
 .a_propos-title {
@@ -255,7 +275,10 @@ i {
     flex-direction: row;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c8eb0adbdf39ae3f7698877e9fcb24d54e9a6367
 .footer-button-bar {
     background-color: rgb(97, 97, 97);
     display: flex;
@@ -263,7 +286,10 @@ i {
     justify-content: center;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c8eb0adbdf39ae3f7698877e9fcb24d54e9a6367
 .footer-link{
     display: flex;
     flex-direction: column;
@@ -278,6 +304,10 @@ i {
     text-decoration: underline;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c8eb0adbdf39ae3f7698877e9fcb24d54e9a6367
 a:hover{
     text-decoration: underline;
 }
@@ -323,3 +353,4 @@ button{
     text-align: center;
     font-size: 2em;
 }
+
