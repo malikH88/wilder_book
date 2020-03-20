@@ -282,46 +282,44 @@ i {
 a:hover{
     text-decoration: underline;
 }
-/* formulaire contact */
+/* section contact */
 
-
-
-form{
-    border: 1px solid;
-    border-radius: 1em;
-    padding: 1rem;
-    text-align: right;
-    max-width: 600px;
-}
-
-form div{
-    margin-bottom: 1rem;
+.section-contact-content{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2rem;
 }
 
-label{
-    display: inline-block;
-    margin-right: .5rem;
+.contact-img{
+    border-radius: 80%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
 }
 
-input, textarea{
-    box-sizing: border-box;
-    border: 1px solid;
-    flex: 1;
-    padding: .5rem .25rem;
+.card-contact{
+    border:solid;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-textarea{
-    vertical-align: top;
+.person-contact{
+    color: #F76C6C;
+    font-weight: bold;
+    font-size: large;
 }
 
-button{
-    padding: .5rem 1rem;
+.info-contact{
+    color: #39424e;;
+    font-size: larger;
 }
-
-.title-contact{
-    text-align: center;
-    font-size: 2em;
-}
-
