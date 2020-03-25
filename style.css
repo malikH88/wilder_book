@@ -172,6 +172,13 @@ h1 {
 
 /*--------------------------SECTION-VOS-STAGIAIRES-------------------------*/
 
+ul{
+    display: flex;
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+}
+
 .section-wilder-title {
     text-align: center;
     font-size: 1.5em;
@@ -202,8 +209,8 @@ h1 {
     padding: .5rem;
 }
 .wilder-card-name {
-    background: linear-gradient(90deg, rgb(172, 172, 172) 0%, rgb(122, 122, 122)100%);
-    border-bottom: black 1px solid;
+    background: grey;
+    border-bottom : black 1px solid;
     font-size: 1.4rem;
     border-radius: 8px 8px 0px 0px;
 }
@@ -214,7 +221,7 @@ h1 {
 
 
 .wilder-card-description {
-    background: linear-gradient(90deg, rgb(172, 172, 172) 0%, rgb(88, 88, 88)100%);
+    background-color: #f7b7b7;
     border-top: black 1px solid;
     font-size: 1rem;
     border-radius: 0px 0px 8px 8px;
