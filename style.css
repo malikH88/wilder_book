@@ -9,10 +9,6 @@ a {
     text-decoration: none;
 }
 
-body {
-    background-image: url(https://images.pexels.com/photos/988873/pexels-photo-988873.jpeg?cs=srgb&dl=architecture-arriere-plan-attirant-988873.jpg&fm=jpg);
-}
-
 body,
 p,
 h1,
@@ -27,6 +23,8 @@ ul {
 
 h2 {
     margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(0, 0, 0);
 }
 
 img {
@@ -34,8 +32,10 @@ img {
     height: auto;
 }
 
-section {
-    padding: 1rem;
+
+hr {
+    color: rgb(255, 255, 255);
+    border: white;
 }
 
 /*--------------------------NAVIGATION-BAR--------------------------*/
@@ -44,7 +44,7 @@ section {
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    box-shadow: 0px 4px 4px rgb(75, 75, 75);
+    box-shadow: 0px 4px 4px rgb(75, 75, 75);    
     background-color: white;
 }
 
@@ -67,7 +67,7 @@ a:hover {
 }
 
 .navbar-link > * {
-    margin-right: 6rem;
+    margin-right: 3rem;
 }
 
 .navbar-logo-title {
@@ -79,6 +79,11 @@ a:hover {
 
 /*--------------------------HEADER--------------------------*/
 
+.section{
+    background-image: url(https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    margin-bottom: 3rem;
+}
+
 .header {
     margin-bottom: 1rem;
     position: fixed;
@@ -86,8 +91,6 @@ a:hover {
     left: 0;
     width: 100%;
     z-index: 1;
-
-
 }
 
 .title-header {
@@ -95,11 +98,13 @@ a:hover {
     padding: 7rem;
     font-size: 3em;
     font-weight: bolder;
-
+    color: rgb(255, 255, 255);
 }
 
 .title-promo {
-    color: rgb(129, 129, 129);
+    color: rgb(255, 255, 255);
+    margin-top: 5rem;
+    font-size: 4.5rem;
 }
 
 .header-sub-title {
@@ -111,13 +116,20 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
-
-
-
 /*--------------------------SECTION-WILD-CLASS-------------------------*/
+.title-welcome {
+    font-size: 2rem;
+}
+
+.section-container-stagiaire{
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 1rem;
+}
 
 .classe-photo {
     width: 60%;
+    border-left: solid 1px black;
 }
 
 .section-wild-block-photo {
@@ -126,18 +138,20 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     padding: 1rem;
-    background-color:#F99797;
+    background-color:rgb(249, 151, 151);
 }
 
 .section-container {
     display: flex;
     flex-direction: row;
     justify-content: baseline;
+    padding: 1rem;
 }
 
 .section-content {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     padding: 1rem;
@@ -145,31 +159,13 @@ h1 {
 }
 
 .section-content-style {
-    background-color: rgb(180, 180, 180);
+    background-color: #F99797;
     color: rgb(255, 255, 255); 
+    border-right: solid 1px black;
 }
 
 .p_classe {
     font-size: 24px;
-}
-/*--------------------------SECTION-A-PROPOS-------------------------*/
-
-.a_propos-title {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 1rem;
-}
-
-.a_propos-paragraphe {
-    text-align: center;
-    text-shadow: rgb(100, 100, 100) 0.2rem 0.2rem 0.2rem;
-    color: rgb(36, 35, 35);
-    font-size: 20px;
-}
-
-.apropos {
-    
-    justify-content: flex-start;
 }
 
 /*--------------------------SECTION-VOS-STAGIAIRES-------------------------*/
@@ -250,6 +246,8 @@ ul{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: #F99797;   
+    padding: 2rem; 
 }
 
 .victor-font{
@@ -259,33 +257,8 @@ ul{
 i {
     color: #0e76a8;
 }
-/*--------------------------FOOTER-PAGE------------------------*/
 
-.Footer-top-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: rgb(97, 97, 97);
-}
-
-.Footer-block-bar {
-    background-color: rgb(75, 75, 75);
-    display: flex;
-    flex-direction: row;
-}
-
-.footer-button-bar {
-    background-color: rgb(97, 97, 97);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.footer-link{
-    display: flex;
-    flex-direction: column;
-    line-height: 30px;
-}
+/*--------------------------SECTION-CONCTACT-------------------------*/
 
 .titre-contact{
     text-decoration: underline;
@@ -298,7 +271,6 @@ i {
 a:hover{
     text-decoration: underline;
 }
-/* section contact */
 
 .section-contact-content{
     display: flex;
@@ -310,8 +282,6 @@ a:hover{
 }
 
 .contact-img{
-    border-radius: 80%;
-    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -319,14 +289,13 @@ a:hover{
 }
 
 .card-contact{
-    border:solid;
     border-width: 1px;
-    border-radius: 10px;
-    width: 33%;
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    background-color: #F99797;
+    margin-bottom: 1rem;
 }
 
 .person-contact{
