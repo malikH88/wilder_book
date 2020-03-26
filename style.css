@@ -11,6 +11,7 @@ a {
 
 body {
     background-image: url(https://images.pexels.com/photos/988873/pexels-photo-988873.jpeg?cs=srgb&dl=architecture-arriere-plan-attirant-988873.jpg&fm=jpg);
+    padding: 1rem;
 }
 
 body,
@@ -25,18 +26,11 @@ ul {
     margin: 0;
 }
 
-h2 {
-    margin-bottom: 1rem;
-}
-
 img {
     max-width: 100%;
     height: auto;
 }
 
-section {
-    padding: 1rem;
-}
 
 /*--------------------------NAVIGATION-BAR--------------------------*/
 
@@ -174,7 +168,7 @@ h1 {
 
 /*--------------------------SECTION-VOS-STAGIAIRES-------------------------*/
 
-ul{
+.flex-card-description{
     display: flex;
     text-align: center;
     padding: 0;
@@ -190,18 +184,10 @@ ul{
     margin-bottom: 1rem;
 }
 
-.section-wilder-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-radius: 10px;
-}
-
 .section-wilder-card{
     margin-bottom: 2rem;
     margin-right: 2rem;
 }
-
 
 .flex-card-name {
     display: flex;
@@ -252,13 +238,41 @@ ul{
     flex-wrap: wrap;
 }
 
-.victor-font{
-    font-size: 20px;
-}
-
 i {
     color: #0e76a8;
+} 
+.card {
+    border-style : solid;
+    border-width: 1px;
+    display : inline-block;
+    text-align : center;
+    margin: 1rem;
+  }
+  
+.card-title {
+    background-color : black;
+    color : white;
+    text-align : center;
+    padding : .5rem;
+    font-size: 1em;
 }
+
+li {
+    margin-bottom: .5rem
+}
+
+.card-image {
+    display : block;  
+    margin-bottom : 0.5rem;
+}
+
+.card-keywords {
+    margin-bottom: .5em;
+    flex-direction: column;
+    display : inline-flex;
+    list-style-type : none; 
+    padding-left : 0;
+} 
 /*--------------------------FOOTER-PAGE------------------------*/
 
 .Footer-top-bar {
