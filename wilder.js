@@ -1,24 +1,25 @@
 window.addEventListener("DOMContentLoaded", (event) => {
-    const wilders = [{name:'Victor <br> Auxietre-Fontes', mobility:'<li>Mobilité : Internationale <li>Domaine : Sport'}, 
-    {name:'Martin Gilbert', mobility:'<li>Mobilité : Nationale <li>Domaine :  Web'}, 
-    {name:'Malik Himeur', mobility:'<li>Mobilité : Internationale <li>Domaine : Banque, Assurance'}, 
-    {name:'Brian Lagaude', mobility:'<li>Mobilité : Internationale <li>Domaine : Web'},
-    {name:'Cécyl Lang', mobility:'<li>Mobilité : Internationale <li>Domaine : Web'}, 
-    {name:'Anthony Lucci', mobility:'<li>Mobilité : Internationale <li>Domaine : Web, Jeux-vidéos'}, 
-    {name:'Angélique Mora', mobility:'<li>Mobilité : Internationale, <br>Quebec <li>Domaine : Web, Jeux-vidéos'}, 
-    {name:'Julien Nicaise', mobility:'<li>Mobilité : Internationale, Italie <li>Domaine : Web, Jeux-vidéos,<br> Sport'}, 
-    {name:'Stephaine Panthiez', mobility:'<li>Mobilité : Nationale <li>Domaine : Web, Jeux-vidéos'}, 
-    {name:'Lucas Perrin', mobility: '<li>Mobilité : Nationale <li>Domaine : Web, Mobile,<br> Jeux-vidéos'},
-    {name:'Joël Rodier', mobility:'<li>Mobilité : Nationale <li>Domaine : Web'}, 
-    {name:'Fabrice Roger', mobility:'<li>Mobilité : 60kms de Soissons <li>Domaine : Web'}, 
-    {name:'Brian Thellier', mobility:'<li>Mobilité : 60kms de Soissons <li>Domaine : Web'}, 
-    {name:'Victor Veyrier', mobility:'<li>Mobilité : Internationale <li>Domaine : Web'}];
+    const wilders = [{name:'Victor <br> Auxietre-Fontes <a href="https://www.linkedin.com/in/victor-auxietre-fontes-6a8439184/"><i class="fab fa-linkedin"></i></a>',image :'image/victor2.png', mobility:'<li>Mobilité : Internationale <li>Serieux, ordonné'}, 
+    {name:'Martin <br> Gilbert <a href="https://www.linkedin.com/in/martin-gilbert-23452b1a3/"><i class="fab fa-linkedin"></i></a>',image :'image/martin.png', mobility:'<li>Mobilité : Nationale <li>Domaine :  Web'}, 
+    {name:'Malik <br> Himeur <a href="https://www.linkedin.com/in/malik-himeur-27452b1a3/"><i class="fab fa-linkedin"></i></a>',image : 'image/malik.png', mobility:'<li>Mobilité : Internationale <li>Domaine : Banque, Assurance'}, 
+    {name:'Brian <br> Lagaude <a href="https://www.linkedin.com/in/brian-lagaude-4110b31a4/"><i class="fab fa-linkedin"></i></a>',image : 'image/bryan1.png', mobility:'<li>Mobilité : Internationale <li>Domaine : Web'},
+    {name:'Cécyl <br> Lang <a href="https://www.linkedin.com/in/c%C3%A9cyl-lang-b21948194/"><i class="fab fa-linkedin"></i></a>',image : 'image/cecyl.png', mobility:'<li>Mobilité : Internationale <li>Domaine : Web'}, 
+    {name:'Anthony <br> Lucci <a href="https://www.linkedin.com/in/anthony-lucci-62b8a911a/"><i class="fab fa-linkedin"></i></a>',image : 'image/anthony.png', mobility:'<li>Mobilité : Internationale <li>A l\'écoute, motivé'}, 
+    {name:'Angélique <br> Mora <a href="https://www.linkedin.com/in/angeliquemora/"><i class="fab fa-linkedin"></i></a>',image : 'image/angelique.png', mobility:'<li>Mobilité : Internationale, <br>Quebec <li>Domaine : Web, Jeux-vidéos'}, 
+    {name:'Julien <br> Nicaise  <a href="https://www.linkedin.com/in/julien-nicaise-64b0641a4/"><i class="fab fa-linkedin"></i></a>',image : 'image/julien.png', mobility:'<li>Mobilité : Internationale, Italie <li>Domaine : Web, Jeux-vidéos,<br> Sport'}, 
+    {name:'Stephaine <br> Panthiez <a href="https://www.linkedin.com/in/stephaine-pantiez-a310b31a4/"><i class="fab fa-linkedin"></i></a>',image : 'image/stephaine.png', mobility:'<li>Mobilité : Nationale <li>Domaine : Web, Jeux-vidéos'}, 
+    {name:'Lucas <br> Perrin <a href="https://www.linkedin.com/in/lucas-perrin51000/"><i class="fab fa-linkedin"></i></a>',image : 'image/lucas.png', mobility: '<li>Mobilité : Nationale <li>Domaine : Web, Mobile,<br> Jeux-vidéos'},
+    {name:'Joël <br> Rodier  <a href="https://www.linkedin.com/in/joel-rodier-6280b41a4/"><i class="fab fa-linkedin"></i></a>',image : 'image/joel.png', mobility:'<li>Mobilité : Nationale <li>Domaine : Web'}, 
+    {name:'Fabrice <br> Roger <a href="https://www.linkedin.com/in/rogerfabrice/"><i class="fab fa-linkedin"></i></a>',image : 'image/fabrice.png', mobility:'<li>Mobilité : 60kms de Soissons <li>Domaine : Web'}, 
+    {name:'Brian <br> Thellier <a href="https://fr.linkedin.com/in/brian-thellier-058439185"><i class="fab fa-linkedin"></i></a>',image : 'image/brian2.png', mobility:'<li>Mobilité : 60kms de Soissons <li>Domaine : Web'}, 
+    {name:'Victor <br> Veyrier <a href="https://www.linkedin.com/in/victor-veyrier-ab6948194/"><i class="fab fa-linkedin"></i></a>',image : 'image/victor1.png', mobility:'<li>Mobilité : Internationale <li>Domaine : Web'}];
 
     const template = document.querySelector('#card-template');
 
     wilders.forEach((wilder) => {
         const card = template.content.cloneNode(true);
         card.querySelector('.card-title').innerHTML = wilder.name
+        card.querySelector('.card-image').src = wilder.image
         card.querySelector('.card-keywords').innerHTML = wilder.mobility
         document.querySelector('.section-wild-block-photo').appendChild(card)
     })
