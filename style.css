@@ -1,17 +1,14 @@
 /*--------------------------TOUTE-LA-PAGE--------------------------*/
 
 * {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Oswald, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 a {
-    color: rgb(190, 98, 98);
+    color: #f76c6c;
     text-decoration: none;
 }
 
-body {
-    padding: 1rem;
-}
 
 body,
 p,
@@ -25,8 +22,8 @@ ul {
 }
 
 h2 {
-    background-color: rgba(255, 255, 255, 0.6);
-    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+    color: black;
 }
 
 img {
@@ -120,7 +117,8 @@ h1 {
 
 /*--------------------------SECTION-WILD-CLASS-------------------------*/
 .title-welcome {
-    font-size: 2rem;
+    font-size: 3rem;
+    color: black;
 }
 
 .section-container-stagiaire{
@@ -140,7 +138,10 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     padding: 1rem;
-    background-color:rgb(249, 151, 151);
+    background-color:#e5e6e7;
+    margin: 4rem;
+    border: 1rem solid #cfcfcf;
+    border-radius: 14px;
 }
 
 .section-container {
@@ -148,6 +149,9 @@ h1 {
     flex-direction: row;
     justify-content: baseline;
     padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+
 }
 
 .section-content {
@@ -161,8 +165,7 @@ h1 {
 }
 
 .section-content-style {
-    background-color: #F99797;
-    color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0); 
     border-right: solid 1px black;
 }
 
@@ -186,6 +189,7 @@ h1 {
     border-bottom: black 1px solid;
     padding: 1rem;
     margin-bottom: 1rem;
+    background: #f9f9f9;
 }
 
 .section-wilder-card{
@@ -201,7 +205,7 @@ h1 {
     padding: .5rem;
 }
 .wilder-card-name {
-    background: grey;
+    background: whitesmoke;
     border-bottom : black 1px solid;
     font-size: 1.4rem;
     border-radius: 8px 8px 0px 0px;
@@ -213,7 +217,7 @@ h1 {
 
 
 .wilder-card-description {
-    background-color: #f7b7b7;
+    background-color: whitesmoke;
     border-top: black 1px solid;
     font-size: 1rem;
     border-radius: 0px 0px 8px 8px;
@@ -240,19 +244,24 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: #F99797;   
-    padding: 2rem; 
+    background-color: #e5e6e7;   
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 14px; 
+
 }
 
 i {
     color: #0e76a8;
 } 
 .card {
-    border-style : solid;
     border-width: 1px;
     display : inline-block;
     text-align : center;
     margin: 1rem;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
   }
   
 .card-title {
@@ -317,7 +326,6 @@ a:hover{
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    background-color: #F99797;
     margin-bottom: 1rem;
 }
 
