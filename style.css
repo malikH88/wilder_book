@@ -1,24 +1,20 @@
 /*--------------------------TOUTE-LA-PAGE--------------------------*/
 
 * {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Oswald, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 a {
-    color: rgb(190, 98, 98);
+    color: #f76c6c;
     text-decoration: none;
 }
 
-body {
-    background-image: url(https://images.pexels.com/photos/988873/pexels-photo-988873.jpeg?cs=srgb&dl=architecture-arriere-plan-attirant-988873.jpg&fm=jpg);
-}
 
 body,
 p,
 h1,
 h2 {
-    margin: 0px;
-    padding: 0px;
+    margin: 0px;;
 }
 
 ul {
@@ -27,6 +23,7 @@ ul {
 
 h2 {
     margin-bottom: 1rem;
+    color: black;
 }
 
 img {
@@ -34,8 +31,10 @@ img {
     height: auto;
 }
 
-section {
-    padding: 1rem;
+
+hr {
+    color: rgb(255, 255, 255);
+    border: white;
 }
 
 /*--------------------------NAVIGATION-BAR--------------------------*/
@@ -44,7 +43,7 @@ section {
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    box-shadow: 0px 4px 4px rgb(75, 75, 75);
+    box-shadow: 0px 4px 4px rgb(75, 75, 75);    
     background-color: white;
 }
 
@@ -67,7 +66,7 @@ a:hover {
 }
 
 .navbar-link > * {
-    margin-right: 6rem;
+    margin-right: 3rem;
 }
 
 .navbar-logo-title {
@@ -79,6 +78,11 @@ a:hover {
 
 /*--------------------------HEADER--------------------------*/
 
+.section{
+    background-image: url(https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    margin-bottom: 3rem;
+}
+
 .header {
     margin-bottom: 1rem;
     position: fixed;
@@ -86,8 +90,6 @@ a:hover {
     left: 0;
     width: 100%;
     z-index: 1;
-
-
 }
 
 .title-header {
@@ -95,11 +97,17 @@ a:hover {
     padding: 7rem;
     font-size: 3em;
     font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
 
+#details-profils{
+    width: 250px;
 }
 
 .title-promo {
-    color: rgb(129, 129, 129);
+    color: rgb(255, 255, 255);
+    margin-top: 5rem;
+    font-size: 4.5rem;
 }
 
 .header-sub-title {
@@ -111,13 +119,21 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
-
-
-
 /*--------------------------SECTION-WILD-CLASS-------------------------*/
+.title-welcome {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.section-container-stagiaire{
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 1rem;
+}
 
 .classe-photo {
     width: 60%;
+    border-left: solid 1px black;
 }
 
 .section-wild-block-photo {
@@ -126,18 +142,26 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     padding: 1rem;
-    background-color:#F99797;
+    background-color:#e5e6e7;
+    margin: 4rem;
+    border: 1rem solid #cfcfcf;
+    border-radius: 14px;
 }
 
 .section-container {
     display: flex;
     flex-direction: row;
     justify-content: baseline;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+
 }
 
 .section-content {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     padding: 1rem;
@@ -145,36 +169,17 @@ h1 {
 }
 
 .section-content-style {
-    background-color: rgb(180, 180, 180);
-    color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0); 
+    border-right: solid 1px black;
 }
 
 .p_classe {
     font-size: 24px;
 }
-/*--------------------------SECTION-A-PROPOS-------------------------*/
-
-.a_propos-title {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 1rem;
-}
-
-.a_propos-paragraphe {
-    text-align: center;
-    text-shadow: rgb(100, 100, 100) 0.2rem 0.2rem 0.2rem;
-    color: rgb(36, 35, 35);
-    font-size: 20px;
-}
-
-.apropos {
-    
-    justify-content: flex-start;
-}
 
 /*--------------------------SECTION-VOS-STAGIAIRES-------------------------*/
 
-ul{
+.flex-card-description{
     display: flex;
     text-align: center;
     padding: 0;
@@ -188,20 +193,13 @@ ul{
     border-bottom: black 1px solid;
     padding: 1rem;
     margin-bottom: 1rem;
-}
-
-.section-wilder-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-radius: 10px;
+    background: #f9f9f9;
 }
 
 .section-wilder-card{
     margin-bottom: 2rem;
     margin-right: 2rem;
 }
-
 
 .flex-card-name {
     display: flex;
@@ -211,7 +209,7 @@ ul{
     padding: .5rem;
 }
 .wilder-card-name {
-    background: grey;
+    background: whitesmoke;
     border-bottom : black 1px solid;
     font-size: 1.4rem;
     border-radius: 8px 8px 0px 0px;
@@ -223,7 +221,7 @@ ul{
 
 
 .wilder-card-description {
-    background-color: #f7b7b7;
+    background-color: whitesmoke;
     border-top: black 1px solid;
     font-size: 1rem;
     border-radius: 0px 0px 8px 8px;
@@ -250,42 +248,53 @@ ul{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-}
+    background-color: #e5e6e7;   
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 14px; 
 
-.victor-font{
-    font-size: 20px;
 }
 
 i {
     color: #0e76a8;
+} 
+.card {
+    border-width: 1px;
+    display : inline-block;
+    text-align : center;
+    margin: 1rem;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+  }
+  
+.card-title {
+    background-color : black;
+    color : white;
+    text-align : center;
+    padding : .5rem;
+    font-size: 1em;
 }
+
+li {
+    margin-bottom: .5rem
+}
+
+.card-image {
+    display : block;  
+    margin-bottom : 0.5rem;
+}
+
+.card-keywords {
+    margin-bottom: .5em;
+    flex-direction: column;
+    display : inline-flex;
+    list-style-type : none; 
+    padding-left : 0;
+} 
 /*--------------------------FOOTER-PAGE------------------------*/
 
-.Footer-top-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: rgb(97, 97, 97);
-}
-
-.Footer-block-bar {
-    background-color: rgb(75, 75, 75);
-    display: flex;
-    flex-direction: row;
-}
-
-.footer-button-bar {
-    background-color: rgb(97, 97, 97);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.footer-link{
-    display: flex;
-    flex-direction: column;
-    line-height: 30px;
-}
+/*--------------------------SECTION-CONCTACT-------------------------*/
 
 .titre-contact{
     text-decoration: underline;
@@ -298,7 +307,6 @@ i {
 a:hover{
     text-decoration: underline;
 }
-/* section contact */
 
 .section-contact-content{
     display: flex;
@@ -310,8 +318,6 @@ a:hover{
 }
 
 .contact-img{
-    border-radius: 80%;
-    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -319,14 +325,12 @@ a:hover{
 }
 
 .card-contact{
-    border:solid;
     border-width: 1px;
-    border-radius: 10px;
-    width: 33%;
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1rem;
 }
 
 .person-contact{
