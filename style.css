@@ -10,7 +10,6 @@ a {
 }
 
 body {
-    background-image: url(https://images.pexels.com/photos/988873/pexels-photo-988873.jpeg?cs=srgb&dl=architecture-arriere-plan-attirant-988873.jpg&fm=jpg);
     padding: 1rem;
 }
 
@@ -27,7 +26,6 @@ ul {
 }
 
 h2 {
-    margin-bottom: 1rem;
     background-color: rgba(255, 255, 255, 0.6);
     color: rgb(0, 0, 0);
 }
